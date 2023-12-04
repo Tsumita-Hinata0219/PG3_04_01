@@ -29,6 +29,15 @@
     <Filter Include="GameObject\Player">
       <UniqueIdentifier>{9e7d5823-e2cb-4cfd-b9b7-c747e6b39f09}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameObject\Scene">
+      <UniqueIdentifier>{c867e6d6-559c-4ad7-b6a4-bf7fed59da46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Scene\SceneState">
+      <UniqueIdentifier>{d0db8cc0-e1cb-4f02-8750-a0e4dacfc2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Scene\SceneState\Game">
+      <UniqueIdentifier>{12d94feb-9ba9-4140-b70b-f0fea51cf868}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -61,6 +70,12 @@
     </ClCompile>
     <ClCompile Include="GameObject\Player\Player.cpp">
       <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Scene\IScene.cpp">
+      <Filter>GameObject\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Scene\SceneState\Game\GameSceneState.cpp">
+      <Filter>GameObject\Scene\SceneState\Game</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +158,12 @@
     </ClInclude>
     <ClInclude Include="GameObject\Player\Player.h">
       <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Scene\IScene.h">
+      <Filter>GameObject\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Scene\SceneState\Game\GameSceneState.h">
+      <Filter>GameObject\Scene\SceneState\Game</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
