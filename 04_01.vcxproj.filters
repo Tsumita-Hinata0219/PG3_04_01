@@ -38,6 +38,18 @@
     <Filter Include="GameObject\Scene\SceneState\Game">
       <UniqueIdentifier>{12d94feb-9ba9-4140-b70b-f0fea51cf868}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Utility\ICommand">
+      <UniqueIdentifier>{f108602b-696d-48df-9eb5-b6ba293ff851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ICommand\MoveRightCom">
+      <UniqueIdentifier>{f7642af3-71c1-4ca7-b0c1-95f3cb4891a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Inputhandler">
+      <UniqueIdentifier>{75964572-7e32-4a04-be62-a3963ccdf9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ICommand\MoveLeftCom">
+      <UniqueIdentifier>{a2ac138a-2c29-4a3f-9e0d-2fecd40cb77b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -76,6 +88,15 @@
     </ClCompile>
     <ClCompile Include="GameObject\Scene\SceneState\Game\GameSceneState.cpp">
       <Filter>GameObject\Scene\SceneState\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Utiliti\ICommand\MoveRightCom\MoveRightCom.cpp">
+      <Filter>Utility\ICommand\MoveRightCom</Filter>
+    </ClCompile>
+    <ClCompile Include="Utiliti\InputHandler\InputHandler.cpp">
+      <Filter>Utility\Inputhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Utiliti\ICommand\MoveLeftCom\MoveLeftCom.cpp">
+      <Filter>Utility\ICommand\MoveLeftCom</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -164,6 +185,18 @@
     </ClInclude>
     <ClInclude Include="GameObject\Scene\SceneState\Game\GameSceneState.h">
       <Filter>GameObject\Scene\SceneState\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiliti\ICommand\ICommand.h">
+      <Filter>Utility\ICommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiliti\ICommand\MoveRightCom\MoveRightCom.h">
+      <Filter>Utility\ICommand\MoveRightCom</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiliti\InputHandler\InputHandler.h">
+      <Filter>Utility\Inputhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiliti\ICommand\MoveLeftCom\MoveLeftCom.h">
+      <Filter>Utility\ICommand\MoveLeftCom</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

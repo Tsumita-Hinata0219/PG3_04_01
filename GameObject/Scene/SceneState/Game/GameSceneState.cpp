@@ -7,6 +7,9 @@
 /// </summary>
 void GameSceneState::Initialize() {
 
+	Player::Initialize();
+	InputHandler::Initialize();
+
 }
 
 
@@ -16,6 +19,13 @@ void GameSceneState::Initialize() {
 /// </summary>
 void GameSceneState::Update() {
 
+	Player::Update();
+
+	iCommand_ = InputHandler::HandlerInput();
+	if (this->iCommand_) {
+		iCommand_->Exec(*Player::GetInstance());
+	}
+
 }
 
 
@@ -24,6 +34,8 @@ void GameSceneState::Update() {
 /// 描画処理
 /// </summary>
 void GameSceneState::Draw() {
+
+	Player::Draw();
 
 }
 

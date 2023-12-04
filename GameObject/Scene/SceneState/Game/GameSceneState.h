@@ -3,6 +3,10 @@
 #include "GameObject/Scene/IScene.h"
 #include "Utiliti/InputManager/InputManager.h"
 
+#include "GameObject/Player/Player.h"
+#include "Utiliti/ICommand/ICommand.h"
+#include "Utiliti/InputHandler/InputHandler.h"
+
 
 /* GameScene */
 class GameSceneState : public IScene {
@@ -27,4 +31,5 @@ public:
 
 private:
 
+	ICommand* iCommand_ = nullptr;
 };
