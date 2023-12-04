@@ -7,12 +7,13 @@ InputHandler* InputHandler::GetInstance() {
 	return &instance;
 }
 
+
+
 void InputHandler::Initialize() {
 
 	InputHandler::AddingMoveLeftComToPressKeysA();
 	InputHandler::AddingMoveLeftComToPressKeysD();
 }
-
 
 
 
