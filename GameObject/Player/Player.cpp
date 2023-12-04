@@ -29,7 +29,10 @@ void Player::Initialize() {
 /// </summary>
 void Player::Update() {
 
-
+	ImGui::Begin("Player");
+	ImGui::Text("key_A : MoveLeft");
+	ImGui::Text("key_D : MoveRight");
+	ImGui::End();
 }
 
 
