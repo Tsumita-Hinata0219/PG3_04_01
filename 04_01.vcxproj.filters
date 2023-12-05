@@ -26,6 +26,30 @@
     <Filter Include="Utility\InputManager">
       <UniqueIdentifier>{8a67077d-ae4e-43c3-9905-acba3c6a45c7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameObject\Player">
+      <UniqueIdentifier>{9e7d5823-e2cb-4cfd-b9b7-c747e6b39f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Scene">
+      <UniqueIdentifier>{c867e6d6-559c-4ad7-b6a4-bf7fed59da46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Scene\SceneState">
+      <UniqueIdentifier>{d0db8cc0-e1cb-4f02-8750-a0e4dacfc2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Scene\SceneState\Game">
+      <UniqueIdentifier>{12d94feb-9ba9-4140-b70b-f0fea51cf868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ICommand">
+      <UniqueIdentifier>{f108602b-696d-48df-9eb5-b6ba293ff851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ICommand\MoveRightCom">
+      <UniqueIdentifier>{f7642af3-71c1-4ca7-b0c1-95f3cb4891a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Inputhandler">
+      <UniqueIdentifier>{75964572-7e32-4a04-be62-a3963ccdf9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ICommand\MoveLeftCom">
+      <UniqueIdentifier>{a2ac138a-2c29-4a3f-9e0d-2fecd40cb77b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
@@ -49,6 +73,30 @@
     </ClCompile>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
       <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager\GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Utiliti\InputManager\InputManager.cpp">
+      <Filter>Utility\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player\Player.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Scene\IScene.cpp">
+      <Filter>GameObject\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Scene\SceneState\Game\GameSceneState.cpp">
+      <Filter>GameObject\Scene\SceneState\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Utiliti\ICommand\MoveRightCom\MoveRightCom.cpp">
+      <Filter>Utility\ICommand\MoveRightCom</Filter>
+    </ClCompile>
+    <ClCompile Include="Utiliti\InputHandler\InputHandler.cpp">
+      <Filter>Utility\Inputhandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Utiliti\ICommand\MoveLeftCom\MoveLeftCom.cpp">
+      <Filter>Utility\ICommand\MoveLeftCom</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +170,33 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
       <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager\GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiliti\InputManager\InputManager.h">
+      <Filter>Utility\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player\Player.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Scene\IScene.h">
+      <Filter>GameObject\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Scene\SceneState\Game\GameSceneState.h">
+      <Filter>GameObject\Scene\SceneState\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiliti\ICommand\ICommand.h">
+      <Filter>Utility\ICommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiliti\ICommand\MoveRightCom\MoveRightCom.h">
+      <Filter>Utility\ICommand\MoveRightCom</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiliti\InputHandler\InputHandler.h">
+      <Filter>Utility\Inputhandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Utiliti\ICommand\MoveLeftCom\MoveLeftCom.h">
+      <Filter>Utility\ICommand\MoveLeftCom</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
